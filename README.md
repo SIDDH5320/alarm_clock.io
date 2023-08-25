@@ -1,16 +1,16 @@
-# alarm_clock.io
-This is the Alarm clock made by using the vanilla Js.
-The project structure is quite straightforward:
+# Alarm Clock Project using Vanilla JavaScript
 
-index.html: The main HTML file that displays the alarm clock interface.
-styles.css: The CSS file responsible for styling the interface.
-script.js: The JavaScript file containing all the logic for setting, managing, and triggering alarms.
-alarm.mp3: An example alarm sound file.
-Customize Alarms
-You can easily customize the alarms by editing the alarms array in the script.js file. Each alarm is represented by an object with the following properties:
+![Alarm Clock Demo](alarm-clock-demo.gif)
 
-hour: The hour (24-hour format) at which the alarm should trigger.
-minute: The minute at which the alarm should trigger.
-message: The message to be displayed when the alarm triggers.
-sound: The path to the sound file to be played when the alarm triggers.
-Feel free to modify this array to add, remove, or adjust alarms to suit your needs.
+Welcome to the Alarm Clock project built using Vanilla JavaScript! This simple web application allows users to set alarms and be alerted at the specified times. No external libraries or frameworks are used – just plain old JavaScript.
+
+## Features
+
+- Set multiple alarms by specifying the hour and minute.
+- Alarms trigger an alert with a customizable message and sound.
+- Easily manage and delete alarms.
+- Responsive design, suitable for various screen sizes.
+
+ ## I hope you enjoy using this simple Alarm Clock application built with Vanilla JavaScript! If you have any questions or feedback, please don't hesitate to reach out.
+
+Created by Siddh Shah - Happy coding!
