@@ -1,0 +1,82 @@
+/* Set a background color and padding for the whole page */
+body {
+    background-color: #f4f3f3; 
+    margin: 0; 
+    padding: 20px; 
+    background-image: url('images/clock2.avif'); /* Set background image */
+    background-repeat: no-repeat; /* Don't repeat the background image */
+    background-size: cover; 
+}
+
+
+/* Style the clock container */
+.clock {
+    text-align: center; 
+    margin-top: 50px;
+    background-color: white; 
+    padding: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    animation: fadeInUp 1s both; /* Apply fadeInUp animation */
+}
+
+/* style the time display with a gradient */
+.time {
+    font-size: 2em; 
+    margin-bottom: 10px; 
+    background: linear-gradient(to right, #f0ec06, #dd49ee); 
+    -webkit-background-clip: text; /* Apply gradient to text only */
+    color: transparent; 
+}
+
+.giffy img{
+    height: 100px;
+}
+
+/* Add animation to the alarm modal content */
+.modal-content {
+    animation: scaleIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* Define a scale-in animation */
+@keyframes scaleIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Style the delete button with hover effect */
+.delete-btn {
+    background-color: red;
+    color: white; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; /* Add transition */
+}
+
+/* Hover effect for delete button */
+.delete-btn:hover {
+    background-color: darkred; 
+}
+
+/* Apply animation to alarm list items */
+.alarm-item {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 5px 0; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: transform 0.2s ease-in-out; /* added transform transition */
+}
+
+/* Hover effect for alarm list items */
+.alarm-item:hover {
+    transform: scale(1.02); /* Slight scale-up on hover */
+}
